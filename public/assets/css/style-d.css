@@ -1,0 +1,431 @@
+
+/*Css merging*/
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2f3146;
+    /*font-family: "Jost", sans-serif !important;*/
+}
+
+
+.footer-icon-area {
+    border-bottom: 1px solid #d3d3d3 !important;
+}
+
+.footer-h1-icon {
+    color: #575757 !important;
+    background: none !important;
+}
+
+.footer-icon-text h4 {
+    color: #575757 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.footer-logo {
+    margin-bottom: 0px !important;
+}
+
+.copyright p {
+    font-size: 12px !important;
+    color: #777777 !important;
+}
+
+.disclaimer {
+    line-height: 17px !important;
+}
+
+p.disclaimer {
+    margin-bottom: 5px !important;
+    color: #777777;
+}
+
+.footer-logo img {
+    width: auto !important;
+}
+/*Sticky nav*/
+.sticky_section {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+/*Collapsable nav*/
+
+.page-sidepanel__button div:hover {
+    opacity: 1;
+}
+
+.leftMenu {
+    width: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+
+    .leftMenu .main-heading img {
+        display: none;
+    }
+
+
+/**/
+.sidebar-nav .has-tree {
+    border-radius: 0;
+    margin: 2px 0;
+    color: #444444;
+    font-size: 14px;
+    margin: 4px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    position: relative;
+}
+
+    .sidebar-nav .has-tree div {
+        cursor: pointer;
+    }
+
+    .sidebar-nav .has-tree ul {
+        margin-top: 15px;
+    }
+
+.leftMenu .sidebar-nav .has-tree ul {
+    display: none;
+}
+
+.leftMenu .sidebar-nav .has-tree.child-active > div {
+    color: #444444;
+    background-color: #ffffff;
+    font-size: 14px;
+    margin: 0px 0px 0px -10px;
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 6px 0px 6px 10px;
+}
+
+    .leftMenu .sidebar-nav .has-tree.child-active > div > span.list-numbers {
+        border: 1px solid #444444;
+        color: #444444;
+    }
+
+.leftMenu .sidebar-nav .has-tree > div > span > i.rotate-icon {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.leftMenu .sidebar-nav .has-tree.child-active > a .list-numbers {
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 10px;
+}
+
+/*Left menu for screen width less than and equal to 600*/
+@media screen and (max-width: 600px) {
+    .form-wizard {
+        padding: 0 15px 0 15px;
+    }
+
+    #v-pills-tab {
+        position: relative;
+    }
+
+    .leftMenu {
+        width: 100%;
+    }
+
+    .form-content {
+        flex-direction: column;
+    }
+
+    .page-sidepanel__button {
+        width: 30px;
+        height: 24px;
+        right: 10px;
+        bottom: -22px;
+        border-right-color: #d7dde3;
+        border-left-color: #d7dde3;
+        border-top-color: #fff;
+        border-radius: 0px 0px 3px 3px;
+    }
+
+        .page-sidepanel__button div {
+            border-width: 0px 8px 8px 8px;
+            border-color: transparent transparent #323c47 transparent;
+            margin: 5px 6px;
+        }
+
+    .leftMenu .nav-pills .sidebar-nav {
+        display: none;
+    }
+
+    .leftMenu .main-heading p:nth-child(1), .leftMenu .main-heading small {
+        display: none;
+    }
+
+    .leftMenu .main-heading p:nth-child(1), .leftMenu .main-heading small {
+        display: block;
+        text-align: left;
+    }
+
+    .leftMenu.expand-nav .main-heading p:nth-child(1), .leftMenu.expand-nav .main-heading small {
+        display: block;
+        text-align: start;
+    }
+
+
+
+    .leftMenu.expand-nav .page-sidepanel__button {
+        right: 10px;
+        top: 5%;
+        border-top-color: #FFF;
+        border-right-color: #d7dde3;
+        border-left-color: #d7dde3;
+        border-radius: 0px 0px 3px 3px;
+    }
+
+        .leftMenu.expand-nav .page-sidepanel__button div {
+            border-width: 7px 8px 7px 7px;
+            border-color: #323c47 transparent transparent transparent;
+            opacity: 1;
+            margin: 8px 7px;
+        }
+
+    .leftMenu.expand-nav .nav-pills .sidebar-nav {
+        display: block;
+    }
+}
+/*-- Chhaya 15/10/2020---*/
+.row_review {
+    border: 1px solid #e2e2e2;
+    margin: 0px 0px 0px 5px;
+    padding: 10px 0px;
+    float: left;
+}
+
+.collapse.show {
+    border: 1px solid #e2e2e2 !important;
+}
+
+.accordion p {
+    width: 100%;
+}
+
+.accordion i {
+    color: #757373;
+    padding-right: 5px;
+}
+
+table {
+    border-color: #eaeaea;
+}
+
+.accordion hr {
+    border: 0px;
+    width: 90%;
+    margin: 16px 0px;
+    padding: 0px;
+    height: 1px;
+    background: #e2e2e2;
+}
+
+.accordion .row {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.accordion h6 {
+    width: 100%;
+}
+
+.accordion h5 {
+    margin: 0px;
+}
+
+.slider-amount-new {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: translate(9%, 0%);
+}
+
+    .slider-amount-new input {
+        text-align: center;
+        background-color: transparent !important;
+        font-size: 20px !important;
+        color: #d95d54 !important;
+    }
+
+#amount, #loanamount, #householdincome .form-wizard .form-control {
+    border-bottom: 0px solid #dadada !important;
+    border: none;
+    border-radius: 5px !important;
+    background-color: transparent;
+    text-align: center;
+}
+/*--- slider -----*/
+.irs--flat .irs-line {
+    height: 2px !important;
+}
+
+.irs--flat .irs-bar {
+    height: 2px !important;
+}
+
+.irs--flat .irs-handle {
+    height: 8px !important;
+}
+
+.main-heading p {
+    color: #444444 !important;
+}
+
+.txt-box {
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.photograph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.targetDiv2 {
+    display: none;
+}
+
+.irs--flat .irs-min, .irs--flat .irs-max {
+    background: none !important;
+}
+
+.footer-icon-text ul li {
+    color: #777777 !important;
+}
+
+.wizard-title h3 {
+    color: #d71f2b !important;
+}
+
+.wizard-title p {
+    color: #777777 !important;
+}
+
+.wrapper { /*background:#fbfbfb;*/
+    box-shadow: none;
+    margin: 0px auto;
+}
+
+.footer-top-area {
+    background: #f8f8f8 !important;
+    border-top: 1px solid #d3d3d3;
+}
+
+.footer-icon-text ul li a {
+    color: #777777 !important;
+}
+
+.ft_txt_gray {
+    color: #6e6e6e !important;
+}
+
+.checkbox-circle .checkmark:after {
+    background: #d71f2b;
+}
+
+.wizard-note-subject .wizard-form-input select, .wizard-note-subject .wizard-form-input textarea {
+    border: 3px solid #e9e9e9;
+}
+
+.actions li span {
+    height: auto;
+    width: auto;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0px;
+    line-height: 55px;
+    text-align: center;
+    background-color: #d71f2b;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 15px 32px;
+}
+
+.actions li .js-btn-prev {
+    background: #c2c2c2 !important;
+}
+
+.multisteps-form__progress-btn span {
+    color: #e5a8a8;
+}
+
+.multisteps-form__progress-btn i {
+    border: 2px solid #e5a8a8;
+}
+
+.multisteps-form__progress-btn {
+    color: #e5a8a8;
+}
+
+    .multisteps-form__progress-btn:after {
+        background-color: #e5a8a8;
+    }
+
+.wizard-v3-progress span {
+    color: #fff1f1;
+}
+
+.wizard-v3-progress .progress {
+    background-color: #c0c0c0;
+}
+
+    .wizard-v3-progress .progress .progress-bar {
+        background-color: #f1dfdd;
+    }
+
+
+/*Who referred India Shelter to you?*/
+.referred {
+    display: none;
+}
+
+.form-wizard .nav-pills .list-numbers {
+    border: 1px solid #444444 !important;
+    color: #444444;
+}
+
+select.form-control {
+    -moz-appearance: auto;
+    -webkit-appearance: auto;
+}
+
+.sidebar-nav .list-name i, .sidebar-nav .nav-link i {
+    font-size: 6px;
+    margin-right: 5px;
+    color: #c4c0c0;
+}
+
+@media screen and (min-width: 601px) {
+    .page-sidepanel__button {
+        display: none;
+    }
+}
+
+.sidebar-nav li li {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
